@@ -7,7 +7,7 @@ pipeline {
     stages {
       stage('Git checkout') {    //Getting the source code from my github repo 'main' branch
            steps {
-               git branch: 'main', url: 'https://github.com/Jeevasanna/demo-java-application.git'
+               git branch: 'master', url: 'https://github.com/Jeevasanna/LTI-demo9.git'
            }
        }
 //        stage('OWASP-Dependency-Check') { 
